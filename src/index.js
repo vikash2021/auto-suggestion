@@ -7,7 +7,7 @@ document.getElementById("app").innerHTML = `
 <div id="suggestionBox"></div>
 </main>
 `;
-
+//Vikash
 (function () {
   const input = document.getElementById("search");
   const suggestionBox = document.getElementById("suggestionBox");

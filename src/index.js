@@ -28,6 +28,9 @@ document.getElementById("app").innerHTML = `
     if (!value) {
       return;
     }
+
+    // below two lines are responsible for
+    // filtering strings from array based on input
     const text = value.trim().replace(/\s/g, "");
     const filteredSuggestions = suggestionsArray.filter((name) =>
       name.toLowerCase().includes(text)

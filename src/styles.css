@@ -1,0 +1,20 @@
+main {
+  width: 400px;
+  margin: 10px auto 0 auto;
+}
+
+#suggestionBox {
+  border: 1px solid green;
+  margin-top: 10px;
+  min-height: 60px;
+  padding: 5px;
+  display: none;
+  width: 410px;
+  border-radius: 10px;
+}
+
+#search {
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+}
